@@ -1,0 +1,9 @@
+.films {
+    margin: 2rem 0;
+    background-color: #000000!important;
+    
+    video {
+        width: 100%;
+        height: auto;
+    }
+}

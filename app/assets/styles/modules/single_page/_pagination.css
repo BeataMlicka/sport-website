@@ -1,0 +1,11 @@
+.pagination {
+    
+    display: none;
+    
+    @mixin atSmall {
+        display: block;
+        font-size: 0.9rem;
+        color: $gray_font;
+        padding: 2rem 0;
+    }
+}

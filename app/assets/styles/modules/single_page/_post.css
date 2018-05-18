@@ -1,0 +1,44 @@
+.post {
+    
+    text-align: center;
+    
+    &--headline-wrapper {
+        margin: 1.5rem 0 0.5rem 0;
+        height: auto;
+    }
+    
+    &--img {
+        width: 100%;
+        height: auto;
+        margin: 1rem auto;
+        display: block;
+        
+        @mixin atBig {
+            width: 80%;
+            margin: 2rem auto;
+        }
+    }    
+    
+    &--content {
+        background-color: $headline_background;
+        font-size: 1rem;
+        
+        @mixin atBig {
+            padding: 1.5rem 1.5rem;
+        }
+    }
+    
+    &--data {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 550px;
+        height: auto;
+        margin: 1rem 0;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        color: $gray_font;
+        text-align: center;
+    }
+}

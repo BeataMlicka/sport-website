@@ -1,0 +1,159 @@
+h1 {
+    margin: 0.2rem 0;
+    padding: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+    @mixin atSmall {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+h2 {
+    margin: 0.2rem 0;
+    padding: 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+    @mixin atSmall {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    @mixin atMedium {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    
+    @mixin atMedium {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    @mixin atBig {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+h3 {
+    margin: 0.2rem 0 0.6rem 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+    @mixin atSmall {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    @mixin atMedium {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    @mixin atBig {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+h4 {
+    margin: 0.2rem 0 0.6rem 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+    @mixin atSmall {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    @mixin atMedium {
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0.1rem 0.2rem 0 0.4rem;
+    }
+    
+    @mixin atBig {
+        margin: 0.1rem 0 0.2rem 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    
+    @mixin atLarge {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }  
+}
+
+/* ------------------------------------------------------ */
+
+.headline {
+    
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem 0 0.5rem 0.3rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    background-color: $headline_background;
+        
+    @mixin atSmall {
+        padding: 1rem 0 1rem 0.2rem;
+        font-size: 1.6rem;
+    }
+     
+    @mixin atLarge {
+        padding: 1rem 0 1rem 0.2rem;
+        font-size: 1.7rem;
+        font-weight: 350;
+    }
+    
+    @mixin atLargeHD {
+        padding: 1rem 0 1rem 0.2rem;
+        font-size: 1.9rem;
+        font-weight: 400;
+    }
+    
+    &--footer {
+        height: 100px;
+        border-bottom: 1px solid $world_color;
+        
+        @mixin atBig {
+            height: 70px;
+        }
+    }
+    
+    &--section {
+        margin-bottom: 0.3rem;
+        background-color: #000000!important;
+    }
+    
+    /* special sections */
+    
+    &--news {
+        border-bottom: 1px solid $news_color;
+    }
+    
+    &--top_posts {
+        border-bottom: 1px solid $top_posts_color;
+    }
+    
+    &--calendar {
+        border-bottom: 1px solid $calendar_color;
+    }
+    
+    &--from-world {
+        border-bottom: 1px solid $world_color;
+    }
+    
+    &--films {
+        border-bottom: 0.1rem solid $films_color;
+    }
+    
+    &--old_posts {
+        border-bottom: 0.1rem solid $old_posts_color;
+    }
+}  
+

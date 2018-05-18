@@ -1,0 +1,78 @@
+.section {
+    
+    &--headline {
+        margin: 0;
+        padding: 1rem 0 0.5rem 0;
+        font-size: 1.2rem;
+        font-weight: 300;
+        background-color: $headline_background;
+        
+        @mixin atSmall {
+            padding: 1rem 0 1rem 0.2rem;
+            font-size: 1.7rem;
+        }
+        
+        @mixin atLargeHD {
+            padding: 1rem 0 1rem 0.2rem;
+            font-size: 1.9rem;
+            font-weight: 400;
+        }
+    }
+    
+    &--footer{
+        border-bottom: 1px solid #a8a8a8;
+    }
+    
+    /* special sections */
+    
+    &--news {
+        width: 100%;
+        height: auto;
+        border-top: 0.1rem solid $news_color;
+        background:         url("/app/assets/images/first_dark_background.png");
+        background-size: 100% 100%;
+        padding: 0.3rem 0 0 0;
+    }
+    
+    &--top_posts {
+        padding: 0.3rem 0 0 0;
+        width: 100%;
+        height: auto;
+        border-top: 0.1rem solid $top_posts_color;
+        
+        @mixin atMedium {
+            background:         url("/app/assets/images/first_dark_background.png");
+            background-size: 100% 100%;
+        }
+    }
+    &--calendar {
+        padding: 0;
+        width: 100%;
+        height: auto;
+        border-top: 0.1rem solid $calendar_color;
+        background:         url("/app/assets/images/first_dark_background.png");
+        background-size: 100% 100%;
+    }
+    
+    &--world {
+        padding: 0;
+        margin: 0;
+        height: auto;
+        border-top: 0.1rem solid $world_color;
+        background-color: #111111;
+        float: left;
+    }
+    
+    
+    &--calendar {
+        margin: 0;
+    }
+    
+    &--films {
+        border-top: 0.1rem solid $films_color;
+    }
+    
+    &--old_posts {
+        border-top: 0.1rem solid $films_color;
+    }
+}

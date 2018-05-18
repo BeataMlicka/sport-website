@@ -1,0 +1,70 @@
+.social-media {
+
+    padding: 20px;
+    
+    &--box {
+        height: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    &--facebook {
+        background-color: #3D609E;
+    }
+    
+    &--google {
+        background-color: #F64235;
+    }
+    
+    &--tweeter {
+        background-color: #00A8E8;
+    }
+
+    &--instagram {
+        background-color: #225A84;
+    }
+    
+    &--youtube {
+        background-color: #FF0000;
+    }
+}
+
+.tags {
+    
+    padding: 20px;
+    span {
+        padding: 10px 20px
+    }
+}
+
+.last-comments {
+    padding: 20px;
+}
+
+.comment {
+    
+    &--picture {
+        box-sizing: border-box;
+        padding: 10px 5px;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+    }
+    
+    &--content {
+        padding: 10px 5px;
+    }
+}
+
+
+
+
+
+
+
+
+

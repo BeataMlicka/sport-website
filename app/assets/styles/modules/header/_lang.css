@@ -1,0 +1,13 @@
+.lang {
+    height: 70px;
+    padding: 20px 0;
+    font-size: 1.4rem;
+    text-align: right;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    @mixin atMedium {
+        padding: 20px;
+    }
+}

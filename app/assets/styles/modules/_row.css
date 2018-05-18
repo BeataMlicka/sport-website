@@ -1,0 +1,151 @@
+.row {
+    margin: 0;
+    padding: 0;
+    @mixin clearfix;
+    box-sizing: border-box;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.col {
+    width: 100%;
+    &--1 {
+        width: 8.111%;
+    }
+    &--2 {
+        width: 16.444%;
+    }
+    &--3 {
+        width: 25%;
+    }
+    &--4 {
+        width: 32.888%;
+    }
+    &--6 {
+        width: 49.6%;
+    }
+    &--7 {
+        width: 58.111%
+    }
+    &--8 {
+        width: 66.111%;
+    }
+    &--9 {
+        width: 75%;
+    }
+    &--10 {
+        width: 83.333%;
+    }
+    &--12 {
+        width: 100%;
+    }
+    @mixin atSmall {
+        &--sm-1 {
+            width: 7.888%;
+        }
+        &--sm-3 {
+            width: 25%;
+        }
+        &--sm-4 {
+            width: 32.888%;
+        }
+        &--sm-6 {
+            width: 49.5%;
+        }
+        &--sm-8 {
+            width: 66.111%;
+        }
+        &--sm-9 {
+            width: 75%;
+        }
+        &--sm-10 {
+            width: 82.888%;
+        }
+    }
+    @mixin atMedium {
+        &--md-1 {
+            width: 8.111%;
+        }
+        &--md-2 {
+            width: 16.666%;
+        }
+        &--md-3 {
+            width: 24.5%;
+        }
+        &--md-4 {
+            width: 32.888%;
+        }
+        &--md-6 {
+            width: 49.5%;
+        }
+        &--md-8 {
+            width: 66.111%;
+        }
+        &--md-9 {
+            width: 75%;
+        }
+        &--md-10 {
+            width: 83.333%;
+        }
+        &--md-12 {
+            width: 100%;
+        }
+    }
+    @mixin atBig {
+        &--bg-2 {
+            width: 16.666%;
+        }
+        &--bg-3 {
+            width: 24.5%;
+        }
+        &--bg-4 {
+            width: 32.888%;
+        }
+        &--bg-6 {
+            width: 50%;
+        }
+        &--bg-8 {
+            width: 66.111%;
+        }
+        &--bg-9 {
+            width: 75%;
+        }
+        &--bg-10 {
+            width: 83.333%;
+        }
+        &--bg-12 {
+            width: 100%;
+        }
+    }
+    @mixin atLarge {
+        &--lg-2 {
+            width: 16.666%;
+        }
+        &--lg-3 {
+            width: 24.5%;
+        }
+        &--lg-4 {
+            width: 32.888%;
+        }
+        &--bg-6 {
+            width: 50%;
+        }
+        &--lg-8 {
+            width: 66.111%;
+        }
+        &--lg-9 {
+            width: 75%;
+        }
+        &--lg-10 {
+            width: 83.333%;
+        }
+        &--lg-12 {
+            width: 100%;
+        }
+    }
+}

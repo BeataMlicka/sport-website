@@ -1,0 +1,10 @@
+.sidebar {
+     
+    display: none;
+    
+    @mixin atMedium {
+        display: block;
+        padding-left: 1rem;
+        background-color: $headline_background;
+    }
+}

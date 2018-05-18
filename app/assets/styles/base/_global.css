@@ -1,0 +1,88 @@
+/*
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway Dots', cursive;
+*/
+
+.br {
+    background-color: maroon;
+}
+
+.gr {
+    background-color: green;
+}
+
+.yl {
+    background-color: #dea200;
+}
+
+.rs {
+    background-color: indianred;
+}
+
+.bl {
+    background-color: cadetblue;
+}
+
+.rd {
+    background-color: brown;
+}
+
+
+/*================================*/
+
+html {
+    background-color: $background_color;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: $body_color;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    jusify-content: space-between;
+    @mixin atSmall {
+        width: 90%;
+    }
+    @mixin atMedium {
+        width: 85%;
+    }
+    @mixin atBig {
+        width: 80%;
+    }
+    @mixin atLarge {
+        width: 80%;
+    }
+    @mixin atLargeHD {
+        width: 65%;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

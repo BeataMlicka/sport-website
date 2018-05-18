@@ -1,0 +1,51 @@
+.post-navigation {
+    
+    padding: 2.5rem 0;
+    height: auto;
+    font-size: 1.1rem;
+    
+    
+    &--next {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end!important;
+    }
+    
+    &--prev {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start!important;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 500;
+    }   
+    
+    span {
+        padding: 0 20px 10px 20px;
+        display: none;
+        
+        @mixin atMedium {
+            display: flex;
+        }
+    }
+    
+    &--title {
+        display: none;
+        padding: 0.3rem 1rem;
+        color: #ffffff;
+        font-size: 1.2rem;
+
+        
+        @mixin atMedium {
+            display: block;
+        }
+    }
+    
+    img {
+        height: 15px;
+        width: auto;
+    }
+}

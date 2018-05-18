@@ -1,0 +1,32 @@
+.nav {
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    transition: all 1.5s ease;
+    padding: 0 20px;
+    font-size: 1rem;
+    ul {
+        list-style: none;
+        li {
+            padding: 10px;
+        }
+    }
+    &--open {
+        display: block;
+        height: 300px;
+        padding: 20px 0;
+    }
+    @mixin atMedium {
+        transition: all 0s ease;
+        display: block;
+        order: 0;
+        height: 60px;
+        ul {
+            li {
+                display: inline-block;
+                padding: 5px 10px;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

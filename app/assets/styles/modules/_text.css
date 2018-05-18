@@ -1,0 +1,55 @@
+.text {
+    &--sm {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        @mixin atMedium {
+            font-size: 0.75rem;
+            padding: 0.1rem 0.2rem 0 0.4rem;
+        }
+        @mixin atLarge {
+            font-size: 0.75rem;
+        }
+    }
+    &--md {
+        font-size: 0.9rem;
+        line-height: 0;
+        @mixin atSmall {
+            font-size: 0.8rem;
+        }
+        @mixin atMedium {
+            font-size: 0.8rem;
+        }
+        @mixin atBig {
+            font-size: 0.8rem;
+        }
+        @mixin atLarge {
+            font-size: 0.9rem;
+        }
+    }
+    &--bg {
+        font-size: 0.9rem;
+        line-height: 0;
+        @mixin atSmall {
+            font-size: 0.8rem;
+        }
+        @mixin atMedium {
+            font-size: 0.7rem;
+        }
+        @mixin atBig {
+            font-size: 0.8rem;
+        }
+        @mixin atLarge {
+            font-size: 0.9rem;
+        }
+    }
+    &--lg {
+        font-size: 0.9rem;
+        color: #ffffff;
+        @mixin atSmall {
+            font-size: 1.1rem;
+        }
+        @mixin atBig {
+            font-size: 1.2rem;
+        }
+    }
+}

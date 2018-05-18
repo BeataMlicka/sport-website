@@ -1,0 +1,35 @@
+.form {
+    
+    &--comments {
+        padding: 2rem 1rem;
+        margin: 2rem 0;
+        background:         url("/app/assets/images/first_dark_background.png");
+        background-size: 100% 100%;
+        display: flex;
+        color: #ffffff;
+    }
+    
+    &--wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    &--field {
+        color: #ffffff;
+        font-weight: 300;
+        background-color: rgba(255, 255, 255, 0);
+        width: 100%;
+        height: 2.5rem;
+        border: 0;
+        border-bottom: 1px solid #ffffff;
+        padding: 0 1rem;
+        margin: 0.5rem 0;
+        
+    }    
+    
+    &--comment {
+        height: 5rem;
+        display: flex;
+    }
+}

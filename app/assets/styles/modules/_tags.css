@@ -1,0 +1,85 @@
+.tags {
+    
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0.2rem 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    
+    &--wrapper {
+        position: absolute;
+        z-index: 5;
+    }
+    
+    &--middle-position {
+        top: 10%;
+    }
+    
+    &--high-position {
+        top: 10%;
+        
+        @mixin atSmall {
+            top: 15%;
+        }
+        
+        @mixin atMedium {
+            top: 12%;
+        }
+    }
+ 
+    
+    &--sm {
+        width: auto;
+        font-size: 0.9rem;
+        padding: 0.2rem 0.2rem;
+        margin-right: 0.1rem;    
+        
+        @mixin atMedium {
+            font-size: 0.8rem;
+        }
+        
+        @mixin atBig {
+            font-size: 0.75rem;
+            padding: 0.1rem 0.1rem;
+        }
+    }
+    
+    &--bg {
+        width: auto;
+        font-size: 0.9rem;
+        padding: 0.2rem 0.2rem;
+        margin-right: 0.1rem;    
+        
+        @mixin atMedium {
+            font-size: 0.8rem;
+        }
+        
+        @mixin atBig {
+            font-size: 0.9rem;
+        }
+    }
+    
+    &--lg {
+        width: auto;
+        font-size: 0.9rem;
+        padding: 0.2rem 0.2rem;
+        margin-right: 0.1rem;
+        
+        @mixin atSmall {
+            font-size: 1.1rem;
+            padding: 0.3rem 0.3rem;
+        }
+    }
+    
+    &--news {
+        background-color: $news_color;
+    }
+    
+    &--top-posts {
+        background-color: $top_posts_color;
+        margin-top: 0.3rem;
+    }
+}

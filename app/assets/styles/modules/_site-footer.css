@@ -1,0 +1,64 @@
+.footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $headline_background;
+    
+    &--social-media {
+        
+        background-color: $headline_background;
+        padding: 20px 30px 20px 10px;
+        display: flex;
+        justify-content: center;
+        
+        i {
+            font-size: 1.5rem;
+            padding: 20px 25px;
+        }
+    }
+    
+    &--contact {
+        background-color: $headline_background;
+        color: #626262;
+        padding: 0.7rem 0.2rem;
+        font-size: 0.9rem;
+    }
+    
+    &--copy_rights {
+        background-color: $background_color;
+        padding: 3rem 0 1rem 0;
+        color: #505050;
+        font-size: 0.8rem;
+    }
+    
+    &--wrapper {
+ 
+        margin: 2rem 0 0 0;
+        padding: 2rem 1rem;
+        
+        @mixin atMedium {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 2rem 0 1rem;
+        }
+    }
+    
+    &--item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.6rem;
+        position: relative;
+        flex-wrap: wrap;
+        max-height: 100px;
+        
+        h3 {
+            margin-left: 2rem;
+        }
+        
+        img {
+            max-height: 100px;
+        }
+    }
+}

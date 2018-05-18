@@ -1,0 +1,59 @@
+.comments {
+    
+    margin: 2rem 0;
+    
+    &--wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem 0.3rem;
+        justify-content: center;
+        text-align: center;
+        
+        @mixin atSmall {
+            flex-direction: row;
+        }
+    }
+    
+    &--author {
+        @mixin atSmall {
+            text-align: left;
+            padding-left: 0.5rem;
+        }
+    }
+    
+    &--data { 
+        @mixin atSmall {
+            display: flex;
+            text-align: right;
+        }
+    }
+    
+    &--date {
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 0.3rem 0;
+    }
+    
+    &--img {
+        width: 80px;
+        height: 80px;
+        border: 2px solid $world_color;
+        border-radius: 80px;    
+    }
+    
+    &--content {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        font-weight: 300;
+        text-align: justify;
+        color: #c3c3c3;
+    }
+    
+    /* -------------------------------------------- */
+
+    
+
+    
+
+    
+}

@@ -1,0 +1,42 @@
+.archives {
+    
+    &--wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    &--element {
+        padding: 0.5rem 0.3rem;
+        height: auto;
+    }
+    
+    &--item {
+        margin: 0.5rem 0;
+        border: 1px solid #0ea7a7;
+        box-sizing: border-box;
+    }
+    
+    &--data {
+        display: flex;
+        color: #0ea7a7;
+        font-size: 0.8rem;
+    }
+    
+    &--text-wrapper {
+        margin: 0.5rem 0rem;
+    }
+    
+    &--autor {
+        text-align: right;
+    }
+    
+    &--btn {
+        color: #ffffff;
+        background-color: #0ea7a7;
+        margin: 0.8rem 0 0 0;
+        padding: 0.3rem 0;
+        text-align: center;
+        text-decoration: none;
+    }
+}
